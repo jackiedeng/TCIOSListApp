@@ -7,141 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A17EF3A421B7C8F200AD67DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EF3A321B7C8F200AD67DE /* AppDelegate.m */; };
-		A17EF3A721B7C8F200AD67DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EF3A621B7C8F200AD67DE /* ViewController.m */; };
-		A17EF3AA21B7C8F200AD67DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17EF3A821B7C8F200AD67DE /* Main.storyboard */; };
-		A17EF3AC21B7C8F400AD67DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17EF3AB21B7C8F400AD67DE /* Assets.xcassets */; };
-		A17EF3AF21B7C8F400AD67DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17EF3AD21B7C8F400AD67DE /* LaunchScreen.storyboard */; };
-		A17EF3B221B7C8F400AD67DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EF3B121B7C8F400AD67DE /* main.m */; };
-		A17EF3BC21B7C8F400AD67DE /* TCIOSListAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EF3BB21B7C8F400AD67DE /* TCIOSListAppTests.m */; };
-		A17EF3C721B7C8F400AD67DE /* TCIOSListAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EF3C621B7C8F400AD67DE /* TCIOSListAppUITests.m */; };
+		1F142DBB329318D87E325637 /* libPods-TCIOSListAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1437B4044779041817D0D1 /* libPods-TCIOSListAppUITests.a */; };
+		8C23EEBD21B7CE7700AB4E85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23EEBC21B7CE7700AB4E85 /* AppDelegate.m */; };
+		8C23EEC021B7CE7700AB4E85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23EEBF21B7CE7700AB4E85 /* ViewController.m */; };
+		8C23EEC321B7CE7700AB4E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C23EEC121B7CE7700AB4E85 /* Main.storyboard */; };
+		8C23EEC521B7CE7800AB4E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C23EEC421B7CE7800AB4E85 /* Assets.xcassets */; };
+		8C23EEC821B7CE7800AB4E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C23EEC621B7CE7800AB4E85 /* LaunchScreen.storyboard */; };
+		8C23EECB21B7CE7800AB4E85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23EECA21B7CE7800AB4E85 /* main.m */; };
+		8C23EED521B7CE7800AB4E85 /* TCIOSListAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23EED421B7CE7800AB4E85 /* TCIOSListAppTests.m */; };
+		8C23EEE021B7CE7800AB4E85 /* TCIOSListAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23EEDF21B7CE7800AB4E85 /* TCIOSListAppUITests.m */; };
+		C03652C44B1D5A47DB70B074 /* libPods-TCIOSListAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40746D9AC4C88DA576C6966D /* libPods-TCIOSListAppTests.a */; };
+		CF25A6FFB7B8ADB599340A20 /* libPods-TCIOSListApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AAE80E979082EF1BEF1033 /* libPods-TCIOSListApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A17EF3B821B7C8F400AD67DE /* PBXContainerItemProxy */ = {
+		8C23EED121B7CE7800AB4E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A17EF39721B7C8F200AD67DE /* Project object */;
+			containerPortal = 8C23EEB021B7CE7700AB4E85 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A17EF39E21B7C8F200AD67DE;
+			remoteGlobalIDString = 8C23EEB721B7CE7700AB4E85;
 			remoteInfo = TCIOSListApp;
 		};
-		A17EF3C321B7C8F400AD67DE /* PBXContainerItemProxy */ = {
+		8C23EEDC21B7CE7800AB4E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A17EF39721B7C8F200AD67DE /* Project object */;
+			containerPortal = 8C23EEB021B7CE7700AB4E85 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A17EF39E21B7C8F200AD67DE;
+			remoteGlobalIDString = 8C23EEB721B7CE7700AB4E85;
 			remoteInfo = TCIOSListApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A17EF39F21B7C8F200AD67DE /* TCIOSListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCIOSListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A17EF3A221B7C8F200AD67DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A17EF3A321B7C8F200AD67DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A17EF3A521B7C8F200AD67DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A17EF3A621B7C8F200AD67DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A17EF3A921B7C8F200AD67DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A17EF3AB21B7C8F400AD67DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A17EF3AE21B7C8F400AD67DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A17EF3B021B7C8F400AD67DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17EF3B121B7C8F400AD67DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A17EF3B721B7C8F400AD67DE /* TCIOSListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCIOSListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A17EF3BB21B7C8F400AD67DE /* TCIOSListAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCIOSListAppTests.m; sourceTree = "<group>"; };
-		A17EF3BD21B7C8F400AD67DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17EF3C221B7C8F400AD67DE /* TCIOSListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCIOSListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A17EF3C621B7C8F400AD67DE /* TCIOSListAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCIOSListAppUITests.m; sourceTree = "<group>"; };
-		A17EF3C821B7C8F400AD67DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BFE2CC0D2C1EFC6BDD9A7A /* Pods-TCIOSListAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOSListAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOSListAppUITests/Pods-TCIOSListAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40746D9AC4C88DA576C6966D /* libPods-TCIOSListAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCIOSListAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AAE80E979082EF1BEF1033 /* libPods-TCIOSListApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCIOSListApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478A6711DF76E273C5BFDB22 /* Pods-TCIOSListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOSListApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOSListApp/Pods-TCIOSListApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6434F5C8801D043BA7689874 /* Pods-TCIOSListAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOSListAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOSListAppUITests/Pods-TCIOSListAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C23EEB821B7CE7700AB4E85 /* TCIOSListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCIOSListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C23EEBB21B7CE7700AB4E85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C23EEBC21B7CE7700AB4E85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C23EEBE21B7CE7700AB4E85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C23EEBF21B7CE7700AB4E85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C23EEC221B7CE7700AB4E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C23EEC421B7CE7800AB4E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C23EEC721B7CE7800AB4E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C23EEC921B7CE7800AB4E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C23EECA21B7CE7800AB4E85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C23EED021B7CE7800AB4E85 /* TCIOSListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCIOSListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C23EED421B7CE7800AB4E85 /* TCIOSListAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCIOSListAppTests.m; sourceTree = "<group>"; };
+		8C23EED621B7CE7800AB4E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C23EEDB21B7CE7800AB4E85 /* TCIOSListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCIOSListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C23EEDF21B7CE7800AB4E85 /* TCIOSListAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCIOSListAppUITests.m; sourceTree = "<group>"; };
+		8C23EEE121B7CE7800AB4E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D500BC969613A4053232390 /* Pods-TCIOSListAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOSListAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOSListAppTests/Pods-TCIOSListAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F016D7F989DDCAF16E91DB3 /* Pods-TCIOSListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOSListApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOSListApp/Pods-TCIOSListApp.release.xcconfig"; sourceTree = "<group>"; };
+		C5D186CF044063C687687BA4 /* Pods-TCIOSListAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCIOSListAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCIOSListAppTests/Pods-TCIOSListAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF1437B4044779041817D0D1 /* libPods-TCIOSListAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCIOSListAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A17EF39C21B7C8F200AD67DE /* Frameworks */ = {
+		8C23EEB521B7CE7700AB4E85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF25A6FFB7B8ADB599340A20 /* libPods-TCIOSListApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A17EF3B421B7C8F400AD67DE /* Frameworks */ = {
+		8C23EECD21B7CE7800AB4E85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03652C44B1D5A47DB70B074 /* libPods-TCIOSListAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A17EF3BF21B7C8F400AD67DE /* Frameworks */ = {
+		8C23EED821B7CE7800AB4E85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F142DBB329318D87E325637 /* libPods-TCIOSListAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A17EF39621B7C8F200AD67DE = {
+		7333393BBA981CAFA0BAC190 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A17EF3A121B7C8F200AD67DE /* TCIOSListApp */,
-				A17EF3BA21B7C8F400AD67DE /* TCIOSListAppTests */,
-				A17EF3C521B7C8F400AD67DE /* TCIOSListAppUITests */,
-				A17EF3A021B7C8F200AD67DE /* Products */,
+				478A6711DF76E273C5BFDB22 /* Pods-TCIOSListApp.debug.xcconfig */,
+				9F016D7F989DDCAF16E91DB3 /* Pods-TCIOSListApp.release.xcconfig */,
+				C5D186CF044063C687687BA4 /* Pods-TCIOSListAppTests.debug.xcconfig */,
+				8D500BC969613A4053232390 /* Pods-TCIOSListAppTests.release.xcconfig */,
+				28BFE2CC0D2C1EFC6BDD9A7A /* Pods-TCIOSListAppUITests.debug.xcconfig */,
+				6434F5C8801D043BA7689874 /* Pods-TCIOSListAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C23EEAF21B7CE7700AB4E85 = {
+			isa = PBXGroup;
+			children = (
+				8C23EEBA21B7CE7700AB4E85 /* TCIOSListApp */,
+				8C23EED321B7CE7800AB4E85 /* TCIOSListAppTests */,
+				8C23EEDE21B7CE7800AB4E85 /* TCIOSListAppUITests */,
+				8C23EEB921B7CE7700AB4E85 /* Products */,
+				7333393BBA981CAFA0BAC190 /* Pods */,
+				E3AC3BE88A38C3150A792906 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A17EF3A021B7C8F200AD67DE /* Products */ = {
+		8C23EEB921B7CE7700AB4E85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A17EF39F21B7C8F200AD67DE /* TCIOSListApp.app */,
-				A17EF3B721B7C8F400AD67DE /* TCIOSListAppTests.xctest */,
-				A17EF3C221B7C8F400AD67DE /* TCIOSListAppUITests.xctest */,
+				8C23EEB821B7CE7700AB4E85 /* TCIOSListApp.app */,
+				8C23EED021B7CE7800AB4E85 /* TCIOSListAppTests.xctest */,
+				8C23EEDB21B7CE7800AB4E85 /* TCIOSListAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A17EF3A121B7C8F200AD67DE /* TCIOSListApp */ = {
+		8C23EEBA21B7CE7700AB4E85 /* TCIOSListApp */ = {
 			isa = PBXGroup;
 			children = (
-				A17EF3A221B7C8F200AD67DE /* AppDelegate.h */,
-				A17EF3A321B7C8F200AD67DE /* AppDelegate.m */,
-				A17EF3A521B7C8F200AD67DE /* ViewController.h */,
-				A17EF3A621B7C8F200AD67DE /* ViewController.m */,
-				A17EF3A821B7C8F200AD67DE /* Main.storyboard */,
-				A17EF3AB21B7C8F400AD67DE /* Assets.xcassets */,
-				A17EF3AD21B7C8F400AD67DE /* LaunchScreen.storyboard */,
-				A17EF3B021B7C8F400AD67DE /* Info.plist */,
-				A17EF3B121B7C8F400AD67DE /* main.m */,
+				8C23EEBB21B7CE7700AB4E85 /* AppDelegate.h */,
+				8C23EEBC21B7CE7700AB4E85 /* AppDelegate.m */,
+				8C23EEBE21B7CE7700AB4E85 /* ViewController.h */,
+				8C23EEBF21B7CE7700AB4E85 /* ViewController.m */,
+				8C23EEC121B7CE7700AB4E85 /* Main.storyboard */,
+				8C23EEC421B7CE7800AB4E85 /* Assets.xcassets */,
+				8C23EEC621B7CE7800AB4E85 /* LaunchScreen.storyboard */,
+				8C23EEC921B7CE7800AB4E85 /* Info.plist */,
+				8C23EECA21B7CE7800AB4E85 /* main.m */,
 			);
 			path = TCIOSListApp;
 			sourceTree = "<group>";
 		};
-		A17EF3BA21B7C8F400AD67DE /* TCIOSListAppTests */ = {
+		8C23EED321B7CE7800AB4E85 /* TCIOSListAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				A17EF3BB21B7C8F400AD67DE /* TCIOSListAppTests.m */,
-				A17EF3BD21B7C8F400AD67DE /* Info.plist */,
+				8C23EED421B7CE7800AB4E85 /* TCIOSListAppTests.m */,
+				8C23EED621B7CE7800AB4E85 /* Info.plist */,
 			);
 			path = TCIOSListAppTests;
 			sourceTree = "<group>";
 		};
-		A17EF3C521B7C8F400AD67DE /* TCIOSListAppUITests */ = {
+		8C23EEDE21B7CE7800AB4E85 /* TCIOSListAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A17EF3C621B7C8F400AD67DE /* TCIOSListAppUITests.m */,
-				A17EF3C821B7C8F400AD67DE /* Info.plist */,
+				8C23EEDF21B7CE7800AB4E85 /* TCIOSListAppUITests.m */,
+				8C23EEE121B7CE7800AB4E85 /* Info.plist */,
 			);
 			path = TCIOSListAppUITests;
+			sourceTree = "<group>";
+		};
+		E3AC3BE88A38C3150A792906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44AAE80E979082EF1BEF1033 /* libPods-TCIOSListApp.a */,
+				40746D9AC4C88DA576C6966D /* libPods-TCIOSListAppTests.a */,
+				DF1437B4044779041817D0D1 /* libPods-TCIOSListAppUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A17EF39E21B7C8F200AD67DE /* TCIOSListApp */ = {
+		8C23EEB721B7CE7700AB4E85 /* TCIOSListApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17EF3CB21B7C8F400AD67DE /* Build configuration list for PBXNativeTarget "TCIOSListApp" */;
+			buildConfigurationList = 8C23EEE421B7CE7800AB4E85 /* Build configuration list for PBXNativeTarget "TCIOSListApp" */;
 			buildPhases = (
-				A17EF39B21B7C8F200AD67DE /* Sources */,
-				A17EF39C21B7C8F200AD67DE /* Frameworks */,
-				A17EF39D21B7C8F200AD67DE /* Resources */,
+				0D94304F4EF6C7FC62B1749D /* [CP] Check Pods Manifest.lock */,
+				8C23EEB421B7CE7700AB4E85 /* Sources */,
+				8C23EEB521B7CE7700AB4E85 /* Frameworks */,
+				8C23EEB621B7CE7700AB4E85 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,68 +190,70 @@
 			);
 			name = TCIOSListApp;
 			productName = TCIOSListApp;
-			productReference = A17EF39F21B7C8F200AD67DE /* TCIOSListApp.app */;
+			productReference = 8C23EEB821B7CE7700AB4E85 /* TCIOSListApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A17EF3B621B7C8F400AD67DE /* TCIOSListAppTests */ = {
+		8C23EECF21B7CE7800AB4E85 /* TCIOSListAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17EF3CE21B7C8F400AD67DE /* Build configuration list for PBXNativeTarget "TCIOSListAppTests" */;
+			buildConfigurationList = 8C23EEE721B7CE7800AB4E85 /* Build configuration list for PBXNativeTarget "TCIOSListAppTests" */;
 			buildPhases = (
-				A17EF3B321B7C8F400AD67DE /* Sources */,
-				A17EF3B421B7C8F400AD67DE /* Frameworks */,
-				A17EF3B521B7C8F400AD67DE /* Resources */,
+				6A0A8956EC7DD0FA692A4A39 /* [CP] Check Pods Manifest.lock */,
+				8C23EECC21B7CE7800AB4E85 /* Sources */,
+				8C23EECD21B7CE7800AB4E85 /* Frameworks */,
+				8C23EECE21B7CE7800AB4E85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A17EF3B921B7C8F400AD67DE /* PBXTargetDependency */,
+				8C23EED221B7CE7800AB4E85 /* PBXTargetDependency */,
 			);
 			name = TCIOSListAppTests;
 			productName = TCIOSListAppTests;
-			productReference = A17EF3B721B7C8F400AD67DE /* TCIOSListAppTests.xctest */;
+			productReference = 8C23EED021B7CE7800AB4E85 /* TCIOSListAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A17EF3C121B7C8F400AD67DE /* TCIOSListAppUITests */ = {
+		8C23EEDA21B7CE7800AB4E85 /* TCIOSListAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17EF3D121B7C8F400AD67DE /* Build configuration list for PBXNativeTarget "TCIOSListAppUITests" */;
+			buildConfigurationList = 8C23EEEA21B7CE7800AB4E85 /* Build configuration list for PBXNativeTarget "TCIOSListAppUITests" */;
 			buildPhases = (
-				A17EF3BE21B7C8F400AD67DE /* Sources */,
-				A17EF3BF21B7C8F400AD67DE /* Frameworks */,
-				A17EF3C021B7C8F400AD67DE /* Resources */,
+				348137DE780D8140DE02BF72 /* [CP] Check Pods Manifest.lock */,
+				8C23EED721B7CE7800AB4E85 /* Sources */,
+				8C23EED821B7CE7800AB4E85 /* Frameworks */,
+				8C23EED921B7CE7800AB4E85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A17EF3C421B7C8F400AD67DE /* PBXTargetDependency */,
+				8C23EEDD21B7CE7800AB4E85 /* PBXTargetDependency */,
 			);
 			name = TCIOSListAppUITests;
 			productName = TCIOSListAppUITests;
-			productReference = A17EF3C221B7C8F400AD67DE /* TCIOSListAppUITests.xctest */;
+			productReference = 8C23EEDB21B7CE7800AB4E85 /* TCIOSListAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A17EF39721B7C8F200AD67DE /* Project object */ = {
+		8C23EEB021B7CE7700AB4E85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = jackiedeng;
+				ORGANIZATIONNAME = Jackie;
 				TargetAttributes = {
-					A17EF39E21B7C8F200AD67DE = {
+					8C23EEB721B7CE7700AB4E85 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					A17EF3B621B7C8F400AD67DE = {
+					8C23EECF21B7CE7800AB4E85 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = A17EF39E21B7C8F200AD67DE;
+						TestTargetID = 8C23EEB721B7CE7700AB4E85;
 					};
-					A17EF3C121B7C8F400AD67DE = {
+					8C23EEDA21B7CE7800AB4E85 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = A17EF39E21B7C8F200AD67DE;
+						TestTargetID = 8C23EEB721B7CE7700AB4E85;
 					};
 				};
 			};
-			buildConfigurationList = A17EF39A21B7C8F200AD67DE /* Build configuration list for PBXProject "TCIOSListApp" */;
+			buildConfigurationList = 8C23EEB321B7CE7700AB4E85 /* Build configuration list for PBXProject "TCIOSListApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +261,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A17EF39621B7C8F200AD67DE;
-			productRefGroup = A17EF3A021B7C8F200AD67DE /* Products */;
+			mainGroup = 8C23EEAF21B7CE7700AB4E85;
+			productRefGroup = 8C23EEB921B7CE7700AB4E85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A17EF39E21B7C8F200AD67DE /* TCIOSListApp */,
-				A17EF3B621B7C8F400AD67DE /* TCIOSListAppTests */,
-				A17EF3C121B7C8F400AD67DE /* TCIOSListAppUITests */,
+				8C23EEB721B7CE7700AB4E85 /* TCIOSListApp */,
+				8C23EECF21B7CE7800AB4E85 /* TCIOSListAppTests */,
+				8C23EEDA21B7CE7800AB4E85 /* TCIOSListAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A17EF39D21B7C8F200AD67DE /* Resources */ = {
+		8C23EEB621B7CE7700AB4E85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17EF3AF21B7C8F400AD67DE /* LaunchScreen.storyboard in Resources */,
-				A17EF3AC21B7C8F400AD67DE /* Assets.xcassets in Resources */,
-				A17EF3AA21B7C8F200AD67DE /* Main.storyboard in Resources */,
+				8C23EEC821B7CE7800AB4E85 /* LaunchScreen.storyboard in Resources */,
+				8C23EEC521B7CE7800AB4E85 /* Assets.xcassets in Resources */,
+				8C23EEC321B7CE7700AB4E85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A17EF3B521B7C8F400AD67DE /* Resources */ = {
+		8C23EECE21B7CE7800AB4E85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A17EF3C021B7C8F400AD67DE /* Resources */ = {
+		8C23EED921B7CE7800AB4E85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,61 +300,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D94304F4EF6C7FC62B1749D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCIOSListApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348137DE780D8140DE02BF72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCIOSListAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0A8956EC7DD0FA692A4A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCIOSListAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A17EF39B21B7C8F200AD67DE /* Sources */ = {
+		8C23EEB421B7CE7700AB4E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17EF3A721B7C8F200AD67DE /* ViewController.m in Sources */,
-				A17EF3B221B7C8F400AD67DE /* main.m in Sources */,
-				A17EF3A421B7C8F200AD67DE /* AppDelegate.m in Sources */,
+				8C23EEC021B7CE7700AB4E85 /* ViewController.m in Sources */,
+				8C23EECB21B7CE7800AB4E85 /* main.m in Sources */,
+				8C23EEBD21B7CE7700AB4E85 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A17EF3B321B7C8F400AD67DE /* Sources */ = {
+		8C23EECC21B7CE7800AB4E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17EF3BC21B7C8F400AD67DE /* TCIOSListAppTests.m in Sources */,
+				8C23EED521B7CE7800AB4E85 /* TCIOSListAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A17EF3BE21B7C8F400AD67DE /* Sources */ = {
+		8C23EED721B7CE7800AB4E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17EF3C721B7C8F400AD67DE /* TCIOSListAppUITests.m in Sources */,
+				8C23EEE021B7CE7800AB4E85 /* TCIOSListAppUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A17EF3B921B7C8F400AD67DE /* PBXTargetDependency */ = {
+		8C23EED221B7CE7800AB4E85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A17EF39E21B7C8F200AD67DE /* TCIOSListApp */;
-			targetProxy = A17EF3B821B7C8F400AD67DE /* PBXContainerItemProxy */;
+			target = 8C23EEB721B7CE7700AB4E85 /* TCIOSListApp */;
+			targetProxy = 8C23EED121B7CE7800AB4E85 /* PBXContainerItemProxy */;
 		};
-		A17EF3C421B7C8F400AD67DE /* PBXTargetDependency */ = {
+		8C23EEDD21B7CE7800AB4E85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A17EF39E21B7C8F200AD67DE /* TCIOSListApp */;
-			targetProxy = A17EF3C321B7C8F400AD67DE /* PBXContainerItemProxy */;
+			target = 8C23EEB721B7CE7700AB4E85 /* TCIOSListApp */;
+			targetProxy = 8C23EEDC21B7CE7800AB4E85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A17EF3A821B7C8F200AD67DE /* Main.storyboard */ = {
+		8C23EEC121B7CE7700AB4E85 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A17EF3A921B7C8F200AD67DE /* Base */,
+				8C23EEC221B7CE7700AB4E85 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A17EF3AD21B7C8F400AD67DE /* LaunchScreen.storyboard */ = {
+		8C23EEC621B7CE7800AB4E85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A17EF3AE21B7C8F400AD67DE /* Base */,
+				8C23EEC721B7CE7800AB4E85 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +431,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A17EF3C921B7C8F400AD67DE /* Debug */ = {
+		8C23EEE221B7CE7800AB4E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		A17EF3CA21B7C8F400AD67DE /* Release */ = {
+		8C23EEE321B7CE7800AB4E85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,8 +543,9 @@
 			};
 			name = Release;
 		};
-		A17EF3CC21B7C8F400AD67DE /* Debug */ = {
+		8C23EEE521B7CE7800AB4E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478A6711DF76E273C5BFDB22 /* Pods-TCIOSListApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,14 +554,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.1.TCIOSListApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jackiedeng.TCIOSListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A17EF3CD21B7C8F400AD67DE /* Release */ = {
+		8C23EEE621B7CE7800AB4E85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F016D7F989DDCAF16E91DB3 /* Pods-TCIOSListApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,14 +571,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.1.TCIOSListApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jackiedeng.TCIOSListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A17EF3CF21B7C8F400AD67DE /* Debug */ = {
+		8C23EEE821B7CE7800AB4E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D186CF044063C687687BA4 /* Pods-TCIOSListAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -474,15 +589,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.1.TCIOSListAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jackiedeng.TCIOSListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCIOSListApp.app/TCIOSListApp";
 			};
 			name = Debug;
 		};
-		A17EF3D021B7C8F400AD67DE /* Release */ = {
+		8C23EEE921B7CE7800AB4E85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D500BC969613A4053232390 /* Pods-TCIOSListAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -492,15 +608,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.1.TCIOSListAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jackiedeng.TCIOSListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCIOSListApp.app/TCIOSListApp";
 			};
 			name = Release;
 		};
-		A17EF3D221B7C8F400AD67DE /* Debug */ = {
+		8C23EEEB21B7CE7800AB4E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BFE2CC0D2C1EFC6BDD9A7A /* Pods-TCIOSListAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TCIOSListAppUITests/Info.plist;
@@ -509,15 +626,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.1.TCIOSListAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jackiedeng.TCIOSListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TCIOSListApp;
 			};
 			name = Debug;
 		};
-		A17EF3D321B7C8F400AD67DE /* Release */ = {
+		8C23EEEC21B7CE7800AB4E85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6434F5C8801D043BA7689874 /* Pods-TCIOSListAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TCIOSListAppUITests/Info.plist;
@@ -526,7 +644,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.1.TCIOSListAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jackiedeng.TCIOSListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TCIOSListApp;
@@ -536,43 +654,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A17EF39A21B7C8F200AD67DE /* Build configuration list for PBXProject "TCIOSListApp" */ = {
+		8C23EEB321B7CE7700AB4E85 /* Build configuration list for PBXProject "TCIOSListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A17EF3C921B7C8F400AD67DE /* Debug */,
-				A17EF3CA21B7C8F400AD67DE /* Release */,
+				8C23EEE221B7CE7800AB4E85 /* Debug */,
+				8C23EEE321B7CE7800AB4E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A17EF3CB21B7C8F400AD67DE /* Build configuration list for PBXNativeTarget "TCIOSListApp" */ = {
+		8C23EEE421B7CE7800AB4E85 /* Build configuration list for PBXNativeTarget "TCIOSListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A17EF3CC21B7C8F400AD67DE /* Debug */,
-				A17EF3CD21B7C8F400AD67DE /* Release */,
+				8C23EEE521B7CE7800AB4E85 /* Debug */,
+				8C23EEE621B7CE7800AB4E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A17EF3CE21B7C8F400AD67DE /* Build configuration list for PBXNativeTarget "TCIOSListAppTests" */ = {
+		8C23EEE721B7CE7800AB4E85 /* Build configuration list for PBXNativeTarget "TCIOSListAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A17EF3CF21B7C8F400AD67DE /* Debug */,
-				A17EF3D021B7C8F400AD67DE /* Release */,
+				8C23EEE821B7CE7800AB4E85 /* Debug */,
+				8C23EEE921B7CE7800AB4E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A17EF3D121B7C8F400AD67DE /* Build configuration list for PBXNativeTarget "TCIOSListAppUITests" */ = {
+		8C23EEEA21B7CE7800AB4E85 /* Build configuration list for PBXNativeTarget "TCIOSListAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A17EF3D221B7C8F400AD67DE /* Debug */,
-				A17EF3D321B7C8F400AD67DE /* Release */,
+				8C23EEEB21B7CE7800AB4E85 /* Debug */,
+				8C23EEEC21B7CE7800AB4E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A17EF39721B7C8F200AD67DE /* Project object */;
+	rootObject = 8C23EEB021B7CE7700AB4E85 /* Project object */;
 }
