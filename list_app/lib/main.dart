@@ -49,9 +49,6 @@ class _MyFirstPageState extends State<MyFirstPage>{
   }
 
   Widget renderForChild(){
-
-    var array = <Widget>[];
-
     return ListView.builder(
         itemCount:this.list.length,
         itemBuilder:(BuildContext context,int index){
@@ -62,20 +59,30 @@ class _MyFirstPageState extends State<MyFirstPage>{
             height: 150,
             color: (index%2==0)?Color(0xffff00ff):Color(0xff00ffff),
             margin: EdgeInsets.all(5),
-            child: Center(
-              child:FlatButton(onPressed: (){
-                setState((){
-                  list[index]+=1;
-                  debugPrint("<>>>>>$item,$index");
-                });
-              },
-                child:
-                Text.rich(
-                    TextSpan(style:TextStyle(color: Color.fromRGBO(100,0,0,1)),
-                        text:"box>$item<>$index<>")
+            child: Row(
+              children: <Widget>[
 
-                ),
+                 FlatButton(onPressed: (){
+                                setState((){
+                                  list[index]+=1;
+                                  debugPrint("<>>>>>$item,$index");
+                                });
+                              },
+                                child:
+                                Text.rich(
+                                    TextSpan(style:TextStyle(color: Color.fromRGBO(100,0,0,1)),
+                                        text:"box>$item<>$index<>")
+
+                                ),
+                              ),
+
+              Container(
+                width: 40,
+                height: 40,
+                color: Color(0xffdddddd),
               ),
+
+              ],
             ),
           );
         });
@@ -102,9 +109,7 @@ class _MyFirstPageState extends State<MyFirstPage>{
         ],
       ),
       // body is the majority of the screen.
-      body: Container(
-        child: this.renderForChild(),
-      ),
+      body: this.renderForChild(),
 
       resizeToAvoidBottomPadding: true,
 
