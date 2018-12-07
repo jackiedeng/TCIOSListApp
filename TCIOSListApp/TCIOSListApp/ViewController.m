@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AFNetworking.h"
+#import <Flutter/Flutter.h>
 
 @interface ViewController ()
 
@@ -37,12 +38,19 @@
 }
 
 - (void)click:(id)sedner{
-    [self postRequest];
+//    [self postRequest];
+    
+    FlutterViewController * flutterCtr = [[FlutterViewController alloc] init];
+    
+//    [flutterCtr setInitialRoute:@""];
+    
+    
+    
+    
 }
 - (void)viewDidLoad {
-    [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor blackColor];
+    [super viewDidLoad];
     
     UIButton * button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     
