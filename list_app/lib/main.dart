@@ -59,10 +59,12 @@ class _MyFirstPageState extends State<MyFirstPage>{
             height: 150,
             color: (index%2==0)?Color(0xffff00ff):Color(0xff00ffff),
             margin: EdgeInsets.all(5),
-            child: Row(
+            child: Stack(
               children: <Widget>[
-
-                 FlatButton(onPressed: (){
+Positioned(
+  right: 5,
+  top:5,
+  child:FlatButton(onPressed: (){
                                 setState((){
                                   list[index]+=1;
                                   debugPrint("<>>>>>$item,$index");
@@ -74,13 +76,12 @@ class _MyFirstPageState extends State<MyFirstPage>{
                                         text:"box>$item<>$index<>")
 
                                 ),
-                              ),
 
-              Container(
-                width: 40,
-                height: 40,
-                color: Color(0xffdddddd),
-              ),
+                              ),
+),
+
+
+
 
               ],
             ),
